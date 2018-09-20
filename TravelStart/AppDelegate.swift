@@ -23,7 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
         return true
     }
-
 }
 
 extension AppDelegate {
@@ -45,7 +44,6 @@ extension AppDelegate {
             [NSAttributedStringKey.foregroundColor: UIColor.white]
         navigationBarAppearace.barStyle = .black
         UIApplication.shared.statusBarStyle = .lightContent
-
     }
     
     func setupThirdPartySettings() {
